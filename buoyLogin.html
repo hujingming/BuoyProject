@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+  <head>
+		<meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="buoyStyles.css">
+    <script src="buoyFunctions.js"></script>
+
+    <title>Buoy</title> 
+  </head>
+	
+  <body id="body">
+    <img src="buoyIcon.png" alt="Buoy" style="width:100px;height:100px">
+
+    <div id="login-container">  
+        
+        <h1>Buoy</h1>
+
+        <form action="POST">
+          <input type="text" name="loginUsername" id="loginUsername" placeholder="Username">@pitt.edu
+          <br />
+          <input type="password" name="loginPassword" id="loginPassword" placeholder="Password">
+          <br />
+          <input type="submit" value="Login"></input>
+        </form>
+    </div>
+
+    <div id="create-container">  
+        <p><b>New to Buoy?</b></p>
+        <p>Create an account.</p>
+        
+        <form name="form1" method="post">
+          <input type="text" name="email" id="email_id" placeholder="Valid Pitt ID">@pitt.edu
+          <br />
+          <input type="password" name="createdPassword" id="createdPassword_id" placeholder="Password">
+          <br />
+          <input type="password" name="createdPassword1" id="createdPassword1_id" placeholder="Retype password">
+          <br />
+          <input type="button" name="Submit" onclick="signUp()" value="Sign Up for Buoy">
+        </form>
+    </div>
+	</body>
+
+</html>

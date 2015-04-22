@@ -1,0 +1,185 @@
+#submarket_body
+{
+	font-family: 'Varela Round', sans-serif;
+	width:680px;
+	margin:auto;
+	padding:15px;
+	background-color:white;
+	border: 1px solid #7A7A7A;
+	border-radius:25px;
+
+	
+}
+
+#submarket_background
+{
+	background-color:#F0F0F0;
+	border: 1px solid #FFF;
+	border-radius:25px;
+	padding:15px;
+	margin:auto;
+	margin-top:15px;
+}
+
+#buoy_header img
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+#buoy_header h1
+{
+	position: relative;
+	top: 18px;
+	left: 10px;
+}
+p
+{
+	font-family:"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size:14px;
+	margin:auto;
+}
+
+body
+{
+	font-family: 'Varela Round', sans-serif;
+}
+
+#login-container
+{
+	
+	font-family: 'Varela Round', sans-serif;
+	width:480px;
+	height:175px;
+	margin:auto;
+	border:1px solid #000;
+	border-radius:5px;
+	padding:5px;
+	margin-bottom:5px;
+
+}
+
+#login-container li
+{
+	list-style:none;
+	padding:5px;
+}
+
+#create-container
+{
+	
+	font-family: 'Varela Round', sans-serif;
+	width:480px;
+	height:175px;
+	margin:auto;
+	padding:5px;
+	border:1px solid #000;
+	border-radius:25px;
+
+}
+
+#create-container li
+{
+	list-style:none;
+	padding:5px;
+}
+
+#nav
+{
+	font-family: 'Varela Round', sans-serif;
+ 	font-size:20px;
+ 	color:#;
+ 	text-align:center;
+ 	margin:auto;
+	list-style-type:none;
+	padding:0;
+	overflow:scroll;
+	/*position:fixed;*/
+	border:none;
+	/*width:105%;*/
+	height:43px;
+	background:#000;
+	vertical-align:top;
+	top:0;
+	left:0;
+	/*z-index:9999;*/
+}
+#nav ul
+{
+	display:inline-block;
+	list-style:none;
+	vertical-align:top;
+	margin:0;
+	padding:5px;
+	padding-top:0;
+}
+#nav li
+{
+	
+	display:inline;
+	background:#000;
+	vertical-align:top;
+	margin:0;
+	padding:5px;
+	padding-top:0;
+}
+#nav a
+{
+	float:left;
+	text-decoration:none;
+	padding:0 20px;
+	vertical-align:top;
+	margin:0;
+}
+
+#create_new_button a
+{
+	font-weight:100;
+	color:#FFF;
+	background-color:#7A7A7A;
+	border: 1px outset #000;
+	border-radius:25px;
+}
+#create_new_button a:hover,#create_new_button a:active
+{
+	color:#7A7A7A;
+	background-color:#F0F0F0;
+}
+
+a:link
+{
+	color:#FFF;
+	display: block;
+    width: 120px;
+    background-color: #000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    
+}
+a:visited
+{
+	color:#FFF;
+	display: block;
+    width: 120px;
+    background-color: #000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+  
+}
+a:hover,a:active
+{
+	color:#FFF;
+	background-color:#303030;
+}
+body#profile a#mybuoynav,
+body#books a#booksnav,
+body#computers a#computersnav,
+body#accessories a#accessoriesnav,
+body#apartments a#apartmentsnav,
+body#other a#othernav,
+{
+color: #fff;
+background: #930;
+}

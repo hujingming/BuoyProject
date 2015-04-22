@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="buoyStyles.css">   
+    <title>MyBuoy-Create Listing</title>
+    <script src="buoyFunctions.js"></script>
+  </head>
+	<body id="body">
+    <div id="nav">  
+      <ul>    
+        <li><a href="createHousing.html" id="mybuoynav">MyBuoy</a></li>
+        <li><a href="buoyBooks.php" id="booksnav">Books</a></li>
+        <li><a href="buoyComputers.php" id="computersnav">Computers</a></li>
+        <li><a href="buoyAccessories.php" id="accessoriesnav">Accessories</a></li>
+        <li><a href="buoyApartments.php" id="apartmentsnav">Housing</a></li>
+        <li><a href="buoyOther.php" id="othernav">Other</a></li>
+      </ul>     
+    </div>
+    
+    <div id="form-container">  
+        
+        <h1>BuoyHousing:</h1>
+       
+        
+        <form action = "apartmentsPost.php" method="POST">
+        <fieldset>
+        
+          <legend>Create New Listing:</legend>
+          
+          <br>
+          
+          Street Address:
+          <br />
+          <input id="apartments_address" type="text" name="apartments_address" size="88" required>
+          
+          <br>
+          <br>
+
+          Zip Code:
+          <br />
+          <input id="apartments_zip" type="text" name="apartments_zip" size="88" required>
+          
+          <br>
+          <br>
+          
+          Bedrooms:
+          <br />     
+          <input id="apartments_bedrooms" type="text" name="apartments_bedrooms" size="88" required>
+          
+          <br>
+          <br>
+          
+          Lease/Sublet timeframe <i>(ex: July 2015 - June 2016)</i> :
+          <br />   
+          <input id="apartments_timeframe" type="text" name="apartments_timeframe" size="88" required>
+          
+          <br>
+          <br>
+          
+          Rent price per month:
+          <br /> 
+          <input id="apartments_price" type="text" name="apartments_price" size="88" required>
+          
+          <br>
+          <br>
+          <br>
+          <br>
+          
+          <a href="http://imgur.com" target="_blank" >Upload Photo</a>
+          
+          <br>
+          
+          <p>Click Upload Photo --> upload your photo on Imgur --> copy "Direct Link (email & IM)" into the url text box below</p>
+          
+          <br>
+          
+          Add photo's "Direct Link (email & IM)" Imgur url:
+          <br /> 
+          <input type="text" id="apartments_photourl" name="apartments_photourl" required>
+          
+          <!--input type="button" value="Show Photo" onclick="showText()"-->
+          
+          <br>
+          <br>
+          
+          Description: 
+          <br />
+          <textarea id="apartments_description" name="apartments_description" cols="88" rows="7" required></textarea></p>
+          
+          <br>
+          <br>
+
+          Your Pitt ID <i>(ex: abc12)</i> : 
+          <br /> 
+          <input type="text" id="apartments_seller" name="apartments_seller" required></textarea>
+          
+          <br>
+          <br>
+          
+          <input type="submit" name="apartments_submit" id="apartments_submit" value="List it" />
+          
+          </fieldset>
+        </form>
+        </body>
+</html>

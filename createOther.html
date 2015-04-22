@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="buoyStyles.css">
+    <script src="buoyFunctions.js"></script>   
+    <title>MyBuoy-Create Listing</title>
+  </head>
+  
+  <body id="body">
+    <div id="nav">  
+      <ul>    
+        <li><a href="createOther.html" id="mybuoynav">MyBuoy</a></li>
+        <li><a href="buoyBooks.php" id="booksnav">Books</a></li>
+        <li><a href="buoyComputers.php" id="computersnav">Computers</a></li>
+        <li><a href="buoyAccessories.php" id="accessoriesnav">Accessories</a></li>
+        <li><a href="buoyApartments.php" id="apartmentsnav">Housing</a></li>
+        <li><a href="buoyOther.php" id="othernav">Other</a></li>
+      </ul>     
+    </div>
+    
+    <div id="form-container">  
+        
+        <h1>BuoyOther:</h1>
+       
+        
+        <form action = "otherPost.php" method="POST">
+        <fieldset>
+        
+          <legend>Create New Listing:</legend>
+          
+          <br>
+          
+          Item name:
+          <br />
+          <input  id="other_name" 
+                  type="text" name="other_name" size="88" required>
+          
+          <br>
+          <br>
+
+          Condition:  
+          <br />
+          <select id="other_condition" name="other_condition" required>
+                       
+                       <option value="empty">--</option>
+                       <option value="Brand New">Brand New</option>
+                       <option value="Like new">Like New</option>
+                       <option value="Very good ">Very Good</option>
+                       <option value="Good">Good</option>
+                       <option value="Acceptable">Acceptable</option>
+                      
+          </select>
+          
+          <br>
+          <br>
+
+          Price:
+          <br /> 
+          <input  id="other_price" 
+                  type="text" name="other_price" size="88" required>
+          <br>
+          <br>
+          
+          <br>
+          <br>
+          
+          <a href="http://imgur.com" target="_blank" >Upload Photo</a>
+          <br>
+          
+          <p>Click Upload Photo --> upload your photo on Imgur --> copy "Direct Link (email & IM)" into the url text box below</p>
+          
+          <br>
+         
+          Add photo's "Direct Link (email & IM)" Imgur url:
+          <br /> 
+          <input type="text" id="other_photourl" name="other_photourl" required>
+          
+          <!--input type="button" value="Show Photo" onclick="showText()"-->
+          
+          <br>
+          <br>
+          <br>
+          
+          Description:
+          <br /> 
+          <textarea id="other_description" name="other_description" cols="88" rows="7" required></textarea>
+          
+          <br>
+          <br>
+
+          Your Pitt ID <i>(ex: abc12)</i> : 
+          <br /> 
+          <input type="text" id="other_seller" name="other_seller" required></textarea>
+          
+          <br>
+          <br>
+          
+          <input type="submit" name="other_submit" id="other_submit" value="List it" />
+  
+          </fieldset>
+        </form>
+        </body>
+</html>
